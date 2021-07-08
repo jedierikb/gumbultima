@@ -1,9 +1,5 @@
-export default function Button(props) {
-    const style = {
-        display: "inline-block",
-        backgroundColor: "orange",
-        padding: 8,
-    }
+import React from 'react';
 
-    return <div style={style}>Hello</div>
+export default function Button(props) {
+    return React.createElement("h1", null, "Hello, world!");
 }
