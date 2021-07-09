@@ -1,6 +1,8 @@
 import React from 'react';
 
+const reverse = require( 'lodash/reverse' );
+
 export default function Button(props) {
-    return React.createElement("div", null, "Hello, world!");
-//     return (<div>wow</div>);
+    const huh = reverse( 'oh no'.split('') ).join('');
+    return React.createElement("div", null, huh);
 }
